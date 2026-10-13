@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+    <meta name="description" content="RIPPLE — a 3D university life adventure game inspired by a Ghanaian campus." />
+    <title>RIPPLE — 3D University Life Adventure</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <!-- Immediate Loading Screen (prevents blank screen while 3D assets load) -->
+    <div id="loading-screen">
+      <div class="loading-card">
+        <div class="loading-logo">RIPPLE</div>
+        <div class="loading-badge">PHASE 2.1 • DAILY LIFE</div>
+        <div class="loading-sub">KNUST Campus • University Life Simulation</div>
+        <div class="loading-bar-track">
+          <div class="loading-bar-fill" id="loading-bar"></div>
+        </div>
+        <div class="loading-status" id="loading-status">Entering campus...</div>
+      </div>
+    </div>
+
+    <div id="app"></div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
